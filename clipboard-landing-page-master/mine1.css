@@ -1,0 +1,165 @@
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.all{
+    width: 100vw;
+    padding: 15px;
+}
+
+.ima{
+    align-items: center;
+}
+h1{
+font-size: 30px;
+flex-wrap: wrap;
+margin: auto;
+padding-left: 150px;
+}
+
+button{
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+width: 215px;
+height:35px;
+}
+button:hover{
+background: chocolate;
+}
+.button{
+    background-color: aqua;
+}
+
+.button1{
+    background-color: rgb(61, 25, 160);
+}
+.div1{
+    display: flex;
+    padding: 10rem;
+    gap:50px;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+padding-bottom: 12px;
+}
+.h2{    align-items: self-start;
+    font-size: large;
+    padding-left: 0%;
+    flex-wrap: wrap;
+}
+p{
+    color: black;
+    align-items: self-start;
+    flex-wrap:wrap ;
+}
+.computer{
+    width: 270px;
+}
+.class1{
+    display: flex;
+    width: fit-content;
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last-class{background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: row;
+    column-count: 3;
+    
+}
+@media screen and(min-width=943px){
+    .div1{
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        flex-shrink: unset;
+        float: auto;
+    }
+  
+        h1{
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+   
+       h2 {
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+   
+        p{
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+   
+        .class1{
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+   
+        .log{
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+        .mac{
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+   
+        .last-class
+        {
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+    
+        .last-sub{
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+    
+        .face{
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            flex-shrink: unset;
+            float: auto;
+        }
+    
+}
